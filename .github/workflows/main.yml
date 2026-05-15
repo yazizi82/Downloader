@@ -182,6 +182,34 @@ jobs:
           echo "📌 برای دریافت کد فعالسازی معتبر:"
           echo "   https://pay.avasam.ir/link/769584"
           echo ""
+
+          cat >> $GITHUB_STEP_SUMMARY << 'EOF'
+          <div align="center">
+          <img src="https://raw.githubusercontent.com/nikzad-avasam/notifications/refs/heads/main/assets/invalid-key.gif" alt="Invalid Key" width="250" />
+
+          # خطا در فعالسازی
+          </div>
+
+          ---
+
+          <div dir="rtl">
+
+          شما کلید فعالساز وارد نکرده یا کلید وارد شده اشتباه است به همین علت امکان استفاده از این پروژه برای شما وجود ندارد.
+
+          برای خرید کلید فعالسازی به لینک پایین مراجعه کنید.
+
+          **نکات :**
+          - کلید دائمی است.
+          - وارد کردن کلید فعالسازی فقط یکبار کافی است. دفعات بعدی نیاز نیست.
+          - در صورت بروز هرگونه مشکل در پیام رسان بله به ایدی @ask_here پیام دهید.
+
+          **لینک خرید کلید فعالسازی :**
+
+          [https://pay.avasam.ir/link/769584](https://pay.avasam.ir/link/769584)
+
+          </div>
+          EOF
+
           exit 1
 
       - name: Save activation to cache
@@ -280,6 +308,34 @@ jobs:
           echo "      و کد را در فیلد 'کد فعالسازی' وارد کنید"
           echo ""
           echo "========================================"
+
+          cat >> $GITHUB_STEP_SUMMARY << 'EOF'
+          <div align="center">
+          <img src="https://raw.githubusercontent.com/nikzad-avasam/notifications/refs/heads/main/assets/invalid-key.gif" alt="Invalid Key" width="250" />
+
+          # خطا در فعالسازی
+          </div>
+
+          ---
+
+          <div dir="rtl">
+
+          شما کلید فعالساز وارد نکرده یا کلید وارد شده اشتباه است به همین علت امکان استفاده از این پروژه برای شما وجود ندارد.
+
+          برای خرید کلید فعالسازی به لینک پایین مراجعه کنید.
+
+          **نکات :**
+          - کلید دائمی است.
+          - وارد کردن کلید فعالسازی فقط یکبار کافی است. دفعات بعدی نیاز نیست.
+          - در صورت بروز هرگونه مشکل در پیام رسان بله به ایدی @ask_here پیام دهید.
+
+          **لینک خرید کلید فعالسازی :**
+
+          [https://pay.avasam.ir/link/769584](https://pay.avasam.ir/link/769584)
+
+          </div>
+          EOF
+
           exit 1
 
   save-file:
